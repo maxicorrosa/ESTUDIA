@@ -1,0 +1,137 @@
+<html>
+
+  <style>
+
+        body {
+            position: relative;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff7D3; 
+            margin: 0;
+        }
+
+        h1 {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+
+        form {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .casilla-numero,
+        .casilla-texto,
+        select {
+            margin-bottom: 10px;
+        }
+
+        #verbosImagen {
+            max-width: 23%;
+            position: absolute;
+            top: 47%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+
+       #verImagen {
+            max-width: 22%;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+
+
+        #enlaceMovil {
+            position: absolute;
+            top: 440px;
+            left: 900px;
+            background-color: white;
+            padding: 8px;
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Estilo adicional al pasar el mouse sobre el enlace */
+        #enlaceMovil:hover {
+            background-color: black; /* Cambiar el color de fondo al pasar el mouse */
+        }
+
+
+    </style>
+
+<head>
+
+    <title>Presente Perfecto</title>
+
+</head>
+
+<body>
+
+    <h1>Acá se habla de Presente Perfecto</h1>
+    
+
+<form>
+
+  <select id="Persona">
+    <option value="opcion1">- Persona -</option>
+    <option value="opcion2">I</option>
+    <option value="opcion3">He</option>
+    <option value="opcion4">She</option>
+    <option value="opcion5">It</option>
+    <option value="opcion6">We</option>
+    <option value="opcion7">They</option>
+    <option value="opcion8">You</option>
+  </select>
+
+  <select id="Auxiliar" name="Auxiliar" required>
+    <option value="opcion">- Auxiliar -</option>
+    <option value="opcion">have</option>
+    <option value="opcion">has</option>
+    <option value="opcion">has</option>
+    <option value="opcion">has</option>
+    <option value="opcion">have</option>
+    <option value="opcion">have</option>
+    <option value="opcion">have</option>
+  </select>
+   
+
+<input type="text" name="verbo" id="verbo" class="casilla-numero" placeholder=" - Verbo en Participio - " required>
+
+<input type="text"  name="oracion" id="oracion" class="casilla-texto" placeholder=" - Resto de oracion - " required>
+
+<br></br>
+
+ <label for="ACORDATE">ACORDATE QUE</label>
+<br>
+  <select id="ACORDATE" name="ACORDATE" size="7">
+    <option value="opcion">I HAVE</option>
+    <option value="opcion">HE HAS</option>
+    <option value="opcion">SHE HAS</option>
+    <option value="opcion">IT HAS</option>
+    <option value="opcion">WE HAVE</option>
+    <option value="opcion">THEY HAVE</option>
+    <option value="opcion">YOU HAVE</option>
+  </select>
+
+</form>
+
+<img id="verbosImagen" src="https://i.ibb.co/K0d4GLB/b.png" alt="Verbos Regulares de Inglés">
+
+<img id="verImagen" src="https://i.ibb.co/KrKTkB2/c.png" alt="Verbos Regulares de Inglés">
+
+ <br><a id="enlaceMovil" href="https://maxicorrosa.github.io/ESTUDIA/index.html">volver</a>
+
+
+</body>
+</html>
